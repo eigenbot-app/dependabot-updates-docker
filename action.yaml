@@ -1,0 +1,8 @@
+name: Dependabot Updates for Dockerfiles
+description: Generates Dependabot update entries for Dockerfiles.
+runs:
+  using: node16
+  main: dist/main.js
+branding:
+  icon: file-plus
+  color: blue
