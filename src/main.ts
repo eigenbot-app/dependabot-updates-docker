@@ -28,7 +28,7 @@ const keySchedule = "schedule";
 const keyVersion = "version";
 
 const keyInterval = "interval";
-const interval = core.getInput("schedule");
+const interval = core.getInput("interval");
 
 function addUpdateEntry(updates: YAML.YAMLSeq) {
     return (dir: string) => {
