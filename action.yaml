@@ -6,3 +6,7 @@ runs:
 branding:
   icon: file-plus
   color: blue
+inputs:
+  interval:
+    description: TODO
+    default: weekly
